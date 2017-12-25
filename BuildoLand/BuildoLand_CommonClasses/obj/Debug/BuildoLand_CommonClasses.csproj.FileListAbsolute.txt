@@ -1,0 +1,7 @@
+C:\Users\Guillaume\Documents\Buildoland\BuildoLand\BuildoLand_CommonClasses\bin\Debug\BuildoLand_CommonClasses.dll.config
+C:\Users\Guillaume\Documents\Buildoland\BuildoLand\BuildoLand_CommonClasses\bin\Debug\BuildoLand_CommonClasses.dll
+C:\Users\Guillaume\Documents\Buildoland\BuildoLand\BuildoLand_CommonClasses\bin\Debug\BuildoLand_CommonClasses.pdb
+C:\Users\Guillaume\Documents\Buildoland\BuildoLand\BuildoLand_CommonClasses\bin\Debug\NetworkCommsDotNetComplete.dll
+C:\Users\Guillaume\Documents\Buildoland\BuildoLand\BuildoLand_CommonClasses\obj\Debug\BuildoLand_CommonClasses.dll
+C:\Users\Guillaume\Documents\Buildoland\BuildoLand\BuildoLand_CommonClasses\obj\Debug\BuildoLand_CommonClasses.pdb
+C:\Users\Guillaume\Documents\Buildoland\BuildoLand\BuildoLand_CommonClasses\obj\Debug\BuildoLand_CommonClasses.csprojResolveAssemblyReference.cache

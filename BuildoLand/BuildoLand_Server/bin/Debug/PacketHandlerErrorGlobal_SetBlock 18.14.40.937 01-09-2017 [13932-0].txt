@@ -1,0 +1,12 @@
+Base Exception Type: System.InvalidOperationException: La collection a été modifiée ; l'opération d'énumération peut ne pas s'exécuter.
+   à System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   à System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
+   à BuildoLand_Server.Program.SetBlock(PacketHeader header, Connection connection, String info) dans C:\Users\Guillaume\Documents\Buildoland\BuildoLand\BuildoLand_Server\Program.cs:ligne 104
+   à NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.Process(PacketHeader packetHeader, Connection connection, Object obj)
+   à NetworkCommsDotNet.NetworkComms.TriggerGlobalPacketHandlers(PacketHeader packetHeader, Connection connection, Object returnObject, Boolean ignoreUnknownPacketTypeOverride)
+
+Stack Trace:    à System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   à System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
+   à BuildoLand_Server.Program.SetBlock(PacketHeader header, Connection connection, String info) dans C:\Users\Guillaume\Documents\Buildoland\BuildoLand\BuildoLand_Server\Program.cs:ligne 104
+   à NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.Process(PacketHeader packetHeader, Connection connection, Object obj)
+   à NetworkCommsDotNet.NetworkComms.TriggerGlobalPacketHandlers(PacketHeader packetHeader, Connection connection, Object returnObject, Boolean ignoreUnknownPacketTypeOverride)

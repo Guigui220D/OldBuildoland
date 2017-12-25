@@ -1,0 +1,12 @@
+Base Exception Type: System.Collections.Generic.KeyNotFoundException: La clé donnée était absente du dictionnaire.
+   à System.ThrowHelper.ThrowKeyNotFoundException()
+   à System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   à BuildoLand_Server.Program.SendChunk(PacketHeader header, Connection connection, String text) dans C:\Users\Guillaume\Documents\Buildoland\BuildoLand\BuildoLand_Server\Program.cs:ligne 85
+   à NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.Process(PacketHeader packetHeader, Connection connection, Object obj)
+   à NetworkCommsDotNet.NetworkComms.TriggerGlobalPacketHandlers(PacketHeader packetHeader, Connection connection, Object returnObject, Boolean ignoreUnknownPacketTypeOverride)
+
+Stack Trace:    à System.ThrowHelper.ThrowKeyNotFoundException()
+   à System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   à BuildoLand_Server.Program.SendChunk(PacketHeader header, Connection connection, String text) dans C:\Users\Guillaume\Documents\Buildoland\BuildoLand\BuildoLand_Server\Program.cs:ligne 85
+   à NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.Process(PacketHeader packetHeader, Connection connection, Object obj)
+   à NetworkCommsDotNet.NetworkComms.TriggerGlobalPacketHandlers(PacketHeader packetHeader, Connection connection, Object returnObject, Boolean ignoreUnknownPacketTypeOverride)
